@@ -7,6 +7,7 @@
   <title>Menu JS</title>
   <!-- Déclaration de la feuille de style -->
   <link rel="stylesheet" href="/src/css/components/menu.css" />
+    <link rel="stylesheet" href="/src/css/components/style.css" />
   <script type="module" src="/src/js/script.js"></script>
 </head>
 
@@ -50,4 +51,23 @@
 
 </body>
 
+<!-- nav>h4{menu}+ul>li*2>a -->
+ <nav> 
+    <h4>menu</h4>
+      <ul>
+        <li><a href="index.html">Les chats</a>
+          <!--ul>li*2>a[href=cats/chat-$.html]{chat $}-->
+          <ul>
+            <li><a href="chat-1.html">chat1</a></li>
+            <li><a href="chat-2.html">chat 2</a></li>
+          </ul>
+        </li>
+        <li><a href="../dogs/index.html"></a></li>
+      </ul>
+      <ul>
+        <li><a href="index.html">Les chiens</a>
+        </ul>
+ </nav>
+ <img class="media media--fullwidth" src="../public/img/cats/cat_yawning_in_park.jpg">
+<!--p>lorem-->
 </html>
